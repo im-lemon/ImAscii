@@ -15,3 +15,5 @@ future updats will be:
 - Colour support
 ---
 And other things!
+ ---
+You only need the requirements when using the .exe file.
