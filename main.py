@@ -22,7 +22,7 @@ else:
         image = image.resize((new_width, new_height))
         image_width = image.width
         print("Image successfully loaded.")
-        ascii_chars = ":/;?%+=~.#@*"
+        ascii_chars = ":/;?%+=~.#@*_-+|&$[]}){(!"
         image = image.convert("L")
         pixels = list(image.getdata())
 
