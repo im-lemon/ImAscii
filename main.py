@@ -2,6 +2,7 @@ from PIL import Image
 from colorim import *
 import sys
 import shutil
+sys.stdout.reconfigure(encoding='utf-8')
 
 result = ""
 
@@ -22,7 +23,7 @@ else:
         image = image.resize((new_width, new_height))
         image_width = image.width
         print("Image successfully loaded.")
-        ascii_chars = ":/;?%+=~.#@*_-+|&$[]}){(!░░▓"
+        ascii_chars = ":/;?%+=~.#@*"
         image = image.convert("L")
         pixels = list(image.get_flattened_data())
 
@@ -35,7 +36,7 @@ else:
                 result += "\n"
                 counter = 0
         print(result)
-        with open("result.txt", "w") as file:
+        with open("result.txt", "w",encoding="utf-8") as file:
             file.write(result)
         print(Color.light_yellow("Image successfully saved in result.txt."))
 
