@@ -16,5 +16,5 @@ future updats will be:
 ---
 
 # Representation of ImAscii:
-![An image of Pikachu, rendered in ImAscii](assets/pikachu.png)
+![An image of Pikachu, rendered in ImAscii](assets/pikachu-ascii.png)
 This is **pikachu, rendered in Imascii**.
