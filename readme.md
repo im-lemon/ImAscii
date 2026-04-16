@@ -14,6 +14,7 @@ future updats will be:
 - Animation, like [ascii-live!](https://github.com/hugomd/ascii-live)
 - Colour support
 ---
-And other things!
- ---
-You only need the requirements when using the .exe file.
+
+# Representation of ImAscii:
+![An image of Pikachu, rendered in ImAscii](assets/pikachu.png)
+This is **pikachu, rendered in Imascii**.
